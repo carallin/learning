@@ -1,0 +1,28 @@
+#div1 {
+    border: 2px solid purple;
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+
+#div2 {
+    border: 2px solid green;
+    /*background-color: red;*/
+    height: 150px;
+    margin-left: 300px;
+}
+
+/*#div1 {
+    border: 2px solid purple;
+    background-color: #eee;
+    height: 150px;
+    width: 300px;
+    f
+}
+
+#div2 {
+    border: 2px solid green;
+    background-color: #bbb;
+    height: 150px;
+}*/

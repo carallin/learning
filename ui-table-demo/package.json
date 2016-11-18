@@ -1,0 +1,18 @@
+{
+  "name": "map-demo",
+  "version": "1.0.0",
+  "description": "integrate leaflet map in UI5",
+  "main": "index.js",
+  "dependencies": {
+  "express": "^4.4.5"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.wdf.sap.corp:i335793/ui-map-demo.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
