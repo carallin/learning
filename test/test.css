@@ -1,28 +1,60 @@
+
+.father {
+    border: 8px solid #4df3c1;
+}
+
 #div1 {
-    border: 2px solid purple;
-    background-color: blue;
+    border: 3px solid purple;
     height: 150px;
     width: 300px;
     float: left;
 }
 
-#div2 {
-    border: 2px solid green;
-    /*background-color: red;*/
-    height: 150px;
-    margin-left: 300px;
-}
 
+
+/*成功的一个*/
 /*#div1 {
-    border: 2px solid purple;
-    background-color: #eee;
+    border: 3px solid purple;
     height: 150px;
     width: 300px;
-    f
+    float: left;
 }
-
 #div2 {
-    border: 2px solid green;
-    background-color: #bbb;
+    border: 3px solid green;
     height: 150px;
+    margin-left: 300px;
+}*/
+
+/*也可以成功，跟第一个没有区别*/
+/*#div1 {
+    border: 3px solid purple;
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    float: left;
+}
+#div2 {
+    border: 3px solid green;
+    height: 150px;
+    background-color: #aaa;
+    margin-left: 300px;
+}*/
+
+/*使用position的方法，可行*/
+/*.father {
+    position: relative;
+}
+#div1 {
+    border: 3px solid purple;
+    height: 150px;
+    width: 300px;
+}
+#div2 {
+    border: 3px solid green;
+    height: 150px;
+    background-color: #aaa;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    right: 0;
 }*/
