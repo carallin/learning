@@ -1,17 +1,81 @@
 
 .father {
     border: 8px solid #4df3c1;
+    height: 200px;
 }
 
 #div1 {
     border: 3px solid purple;
     height: 150px;
     width: 300px;
-    float: left;
 }
 
 
+/*垂直居中*/
+/*.father {
+    position: relative;
+}
+#div1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -75px;
+}*/
 
+/*水平居中*/
+/*#div1 {
+    margin: 0 auto;
+}*/
+
+/*#div1 {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+}*/
+
+
+/*关于清除浮动的问题*/
+
+/*#div1 {
+    border: 3px solid purple;
+    height: 150px;
+    width: 300px;
+    float: left;
+}*/
+
+/*清除浮动的第一种方法*/
+/*.father {
+    overflow: hidden;
+}*/
+
+/*清除浮动第二种方法*/
+/*.father:after {
+    content: '.';
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0;
+}*/
+
+/*.father:after {
+    content: '';
+    display: block;
+    clear: both;
+}*/
+
+/*清除浮动第三种方法*/
+/*.clear {
+    clear: both;
+}*/
+
+/*清除浮动第四种方法，不建议*/
+/*.father {
+    float: left;
+}*/
+
+
+/*左边div宽度固定，右边自适应*/
 /*成功的一个*/
 /*#div1 {
     border: 3px solid purple;
