@@ -1,8 +1,41 @@
 window.onload=loadPage();
 function loadPage() {
+    autoComplete();
   // createTable(10,10);
   // fun();
 }
+var obj = {
+    ':wys' : '王云松@163.com,tianxiang@163.com',
+    ':tx' : '田响',
+    ':zlj' : '张利剑',
+    ':qpl' : 'lijianzhang@gmail.com;tianxiangnju@163.com;yunsong_wang@163.com;carallin_t@163.com'
+}
+
+function autoComplete() {
+    var input = document.getElementById('input1');
+    var originValue = input.value;
+    input.addEventListener('keyup',function (event) {
+        var name = input.value;
+        if (name.lastIndexOf(';')>0) {
+            var start = name.lastIndexOf(';');
+            name = name.slice(start+1);
+        }
+
+        if (obj.hasOwnProperty(name)) {
+            console.log(obj[name]);
+            if(!originValue){
+                input.value = obj[name];
+            }else {
+                input.value = originValue + ';' + obj[name];
+            }
+            originValue = input.value;
+        }
+
+    })
+}
+
+
+
 
 function createTable(rows,lines){
     this.rows=rows;
