@@ -1,12 +1,49 @@
+#list1:hover ul{
+    display: block !important;
+}
+
+
+.list {
+    position: relative;
+    border: 3px solid wheat;
+}
+li {
+    border: 1px solid skyblue;
+    padding: 5px;
+    width: 120px;
+    list-style-type: none;
+    cursor: pointer;
+}
+ul {
+    padding: 8px;
+
+}
+/*.main-list {
+    border: 1px dashed lightcoral;
+}
+.main-list li:first-child {
+    background-color: skyblue;
+}
+.main-list li:first-child:hover {
+    background-color: seashell;
+}
+.main-list li:first-child:hover .sub-list {
+    display: block;
+}*/
+.sub-list {
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
 
 .father {
-    border: 8px solid #4df3c1;
-    height: 150px;
+    border: 8px solid wheat;
+    height: 100px;
 }
 
 #div1 {
-    border: 3px solid purple;
-    height: 100px;
+    border: 3px solid lightblue;
+    height: 80px;
     width: auto;
     margin: 0 auto;
     overflow: auto;
@@ -16,7 +53,7 @@
     display: block;
     height: 30px;
     width: 90%;
-    border: 1px solid #aaa;
+    border: 1px solid silver;
     margin: 20px auto;
 }
 
