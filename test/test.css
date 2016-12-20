@@ -1,3 +1,27 @@
+/*---------animation example---------*/
+#father1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3afdd3;
+    margin: 0 auto;
+}
+#son1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ee33dd;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    0% {top:0px; left:0px;}
+    25% {top: 0px; left: 100px;}
+    50% {top: 100px; left: 100px;}
+    75% {top: 100px; left: 0px;}
+    100% {top: 0px; left: 0px;}
+}
+/*-----------animation example-----------*/
+
 
 .father {
     border: 8px solid wheat;
@@ -5,7 +29,7 @@
     padding: 30px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wnorap;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
     min-width: 500px;
@@ -32,7 +56,7 @@
 #div3 {
     background-color: linen;
     font-size: 32px;
-    /*flex-grow: 1;*/
+    flex-grow: 1;
     /*flex-basis: 240px;*/
 
 }

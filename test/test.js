@@ -1,6 +1,6 @@
 window.onload=loadPage();
 function loadPage() {
-    autoComplete();
+    // autoComplete();
   // createTable(10,10);
   // fun();
 }
