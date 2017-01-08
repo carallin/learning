@@ -1,0 +1,249 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body,div,ul {
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -.5em;
+}
+sub {
+  bottom: -.25em;
+}
+img {
+  border: 0;
+}
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+pre {
+  overflow: auto;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+button {
+  overflow: visible;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  padding: .35em .625em .75em;
+  margin: 0 2px;
+  border: 1px solid #c0c0c0;
+}
+legend {
+  padding: 0;
+  border: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+}
+
+/*------------------初始化完成----------------------------*/
+body {
+  font-family: "微软雅黑";
+}
+.container {
+  background-color: lightgrey;
+}
+ul.row {
+  /*overflow: hidden;*/
+}
+.row li {
+  display: inline-block;
+  float: left;
+}
+/*------------------------header----------------------------*/
+header {
+  position: relative;
+  background-color: #333;
+  color: #ddd;
+  height: 110px;
+  min-width: 1000px;
+}
+header > .logo {
+  height: 110px;
+  font-size: 180%;
+  /*display: inline-block;
+  margin-left: 5%;*/
+  border: 1px solid red;
+  position: absolute;
+  left: 5%;
+}
+.logo-img {
+  display: inline-block;
+  float: left;
+  /*height: 110px;*/
+  /*padding: 10px 0;*/
+  border: 1px solid red;
+}
+.logo-img > img {
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+}
+.title {
+  display: inline-block;
+  border: 1px solid red;
+  height: 110px;
+  margin-top: -10px;
+}
+.main-title {
+  /*border: 1px solid red;*/
+}
+.small-title {
+  font-size: 50%;
+  /*border: 1px solid red;*/
+}
+
+header > nav {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right: 7%;
+  /*background-color: #000;*/
+  font-size: 110%;
+}
+nav li {
+  cursor: pointer;
+  padding: 0 8px 5px 8px;
+  margin: 0 12px 5px 12px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+}
+nav li a {
+  color: #ddd;
+  text-decoration: none;
+  padding: 0 0 5px 0;
+}
+nav li + li:before {
+  content: '|';
+  color: #ddd;
+  position: absolute;
+  left: -13px;
+}
+nav li:hover {
+  border-bottom: 2px solid #fff;
+}
+
+li.active:after {
+  content: " ";
+  width: 0px;
+  height: 0px;
+  border: 18px solid transparent;
+  border-top-color: #333;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  margin-left: -18px;
+}
+/*------------------------aside----------------------------*/
+
+/*------------------------footer----------------------------*/
