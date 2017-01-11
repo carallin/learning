@@ -186,6 +186,21 @@ p {
   text-indent: 1.8em;
   text-align: justify;
 }
+p.small-p {
+  line-height: 1;
+}
+a.download {
+  padding: 0 10px;
+  text-decoration: none;
+}
+a.download:hover > .icon-file-text2:before {
+  color: #ffc000;
+  font-size: 1.1em;
+}
+.icon-file-text2:before {
+  color: #333;
+  font-size: .9em;
+}
 h3 {
   border-bottom: 2px solid #ffc000;
   color: #5f497a;
@@ -330,15 +345,17 @@ section {
   padding: 12px 0 12px 15px;
 }
 .aside .aside-list2 {
-  margin-left: 10px;
-}
-.aside .aside-list2 li {
-  padding: 10px 0 10px 20px;
+  margin-left: 20px;
 }
 .aside .aside-list2 li {
   list-style-type: circle;
   list-style-position: inside;
-  padding: 10px 0 10px 20px;
+  padding: 10px 0 10px 5px;
+  /*border: 1px solid red;*/
+}
+.aside .aside-list2 li a{
+  padding: 0;
+  margin-left: -15px;
 }
 .aside li:hover {
   color: #632363;
