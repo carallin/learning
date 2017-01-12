@@ -207,13 +207,15 @@ h3 {
   font-size: 1.3em;
   font-weight: normal;
   padding-bottom: 8px;
+  margin: 2.5em 0 0 0;
 }
 h4 {
   border-bottom: 1.5px dashed #ffc000;
   color: #5f497a;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: normal;
-  padding-bottom: 6px;
+  padding-left: 1em;
+  padding-bottom: 5px;
 }
 /*------------------------header----------------------------*/
 header {
@@ -326,6 +328,11 @@ section {
   flex-grow: 0;
   padding-left: 10px;
   margin-top: 20px;
+}
+.fixed-aside {
+  position: fixed;
+  top: 20px;
+  width: 210px;
 }
 .aside li>a {
   color: #333;
@@ -470,5 +477,36 @@ footer li {
   padding: 5px;
 }
 
-
-/*------------------------body----------------------------*/
+/*------------------------hint----------------------------*/
+.hint > li {
+  display: inline-block;
+  padding: 20px 10px 10px;
+  background-color: rgba(0,0,0,.3);
+  border-radius: 5px;
+}
+.fixed-hint-top {
+  position: fixed;
+  bottom: 20%;
+  right: 20px;
+}
+.hidden {
+  display: none;
+}
+.hint > li > a {
+  text-decoration: none;
+  text-align: center;
+}
+.hint .icon-ctrl:before {
+  font-size: 2em;
+  position: absolute;
+  top: 5px;
+}
+.hint > li:hover {
+  background-color: rgba(0,0,0,.6);
+}
+.hint > li:hover > a {
+  color: #ddd;
+}
+.hint > li:hover .icon-ctrl:before {
+  font-size: bold;
+}
