@@ -1,8 +1,8 @@
 var express = require('express');
+// var router = express.Router();
 var router = express.Router();
 
 router.get('/',function(req, res) {
-    // res.send('Hello World!<a href="/static/index.html">index</a>');
     res.render('index');
 });
 router.get('/about', function (req, res) {
