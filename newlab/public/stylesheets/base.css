@@ -337,11 +337,11 @@ section {
 .aside li {
   list-style: none;
   cursor: pointer;
-  border-bottom: 1px solid rgba(0,0,0,.7);
 }
 .aside li > a {
   display: block;
   color: #333;
+  border-bottom: 1px solid #ccc;
   text-decoration: none;
 }
 .aside .aside-title {
@@ -356,24 +356,20 @@ section {
   padding: 12px 0 12px 15px;
 }
 .aside .aside-list2 {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 .aside .aside-list2 li {
   list-style-type: circle;
-  list-style-position: inside;
-  /*border: 1px solid red;*/
 }
 .aside .aside-list2 li > a{
-  display: block;
   padding: 10px 0 10px 5px;
-  margin-left: -15px;
 }
 .aside li:hover {
   color: #632363;
   background-color: #eee;
 }
-.aside li.select {
-  border-bottom: 1.5px solid #ffc000;
+.aside li > a.current {
+  border-bottom: 2px solid #ffc000;
 }
 .article {
   flex-basis: 210px;
@@ -496,6 +492,7 @@ footer li {
 .hint > li > a {
   text-decoration: none;
   text-align: center;
+  color: #c329dd;
 }
 .hint .icon-ctrl:before {
   font-size: 2em;
@@ -517,19 +514,27 @@ table {
   width: 96%;
 }
 table th {
+  font-size: 1.1em;
   text-align: left;
-  padding: 10px 20px;
-  background-color: rgb(199, 116, 232);
+  padding: 5px 20px;
+  border-bottom: 2px solid #ddd;
+  /*background-color: rgb(199, 116, 232);*/
+}
+table td {
+  padding: 0 20px;
 }
 table tr {
   font-size: .9em;
   text-align: left;
-  line-height: 2.5;
-  border-bottom: 1px solid #000;
+  line-height: 2.7;
+  border-bottom: 1px solid #ddd;
+}
+table tr:first-child {
+  /*background-color: rgb(209, 180, 237);*/
 }
 table tr:nth-child(2n+1) {
-  background-color: rgb(180, 120, 154);
+  /*background-color: rgb(180, 120, 154);*/
 }
-table td {
-  padding: 0 20px;
+table tr:not(:first-child):hover {
+  background-color: #eee;
 }
