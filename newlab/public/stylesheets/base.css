@@ -384,10 +384,10 @@ footer {
   clear: both;
   padding: 15px 5% 5px 5%;
   background-color: #333;
-  color: #ddd;
+  color: #b0b0b0;
 }
 footer a {
-  color: #ddd;
+  color: #b0b0b0;
   text-decoration: none;
 }
 footer a:hover {
@@ -413,9 +413,6 @@ footer li {
   margin-top: 10px;
   border-top: .5px solid rgba(200,180,180,0.5);
 }
-.footer-bottom > .copyright {
-  color: #999;
-}
 
 .footer-top {
   height: 130px;
@@ -438,10 +435,9 @@ footer li {
   position: absolute;
   top: 0;
   left: -5px;
-  color: #bbb;
 }
 .min-title > .icon-smile {
-  color: #ddd;
+  /*color: #ddd;*/
   font-size: 14px;
 }
 .footer-top .friend-link li.links{
@@ -462,7 +458,7 @@ footer li {
 }
 .icon-envelop::before,
 .icon-location2:before {
-  color: #ddd;
+  /*color: #ddd;*/
 }
 .footer-top .us {
   float: right;
