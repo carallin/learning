@@ -339,6 +339,14 @@ section {
   position: fixed;
   top: 20px;
   width: 210px;
+  margin-bottom: 10px;
+}
+.fixed-aside:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
 }
 .aside li {
   list-style: none;

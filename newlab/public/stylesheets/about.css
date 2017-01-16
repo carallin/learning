@@ -26,7 +26,7 @@
   font-weight: bold;
   padding: 5px 0;
 }
-.article img {
+.article .item img {
   border: 2px solid #ddd;
   border-radius: 10px;
   padding: 2px;
@@ -34,6 +34,7 @@
 .article .students img {
   border-radius: 20px;
 }
+
 .people.big {
   margin: 15px 20px 10px 10px;
 }
@@ -45,10 +46,24 @@
   padding-top: 5px;
   padding-left: 40px;
 }
-.big .info li {
-  /*font-size: 1em;*/
-}
 .small img {
   width: 100px;
   height: 115px;
+}
+
+.people.small {
+  margin: 10px;
+}
+/********************************students -flex***********************************/
+.students-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.people {
+  /*border: 1px solid red;*/
+  flex-basis: 250px;
+  flex-grow: 1;
 }
