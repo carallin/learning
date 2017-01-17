@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../stylesheets/style.css">
-    <link rel="stylesheet" href="../stylesheets/about.css">
     <title>MWP lab</title>
   </head>
   <body>
@@ -21,7 +20,8 @@
       </div>
       <nav>
         <ul class="row">
-          <li class="active"><a href="#">首页</a></li>
+          <li><a href="#">首页</a></li>
+          <li><a href="news.html">新闻动态</a></li>
           <li><a href="introduction.html">实验室简介</a></li>
           <li><a href="achievements.html">成果展示</a></li>
           <li><a href="about.html">关于我们</a></li>
@@ -31,13 +31,39 @@
 
     <section>
       <div class="container">
-        <article class="article" id="article">
-          <div class="image-panel">
+          <div class="image-panel" id="image-panel">
+            <div class="image-list">
+              <ul>
+                <li class="image-item"><img src="../images/1.jpg" alt="displaying images"></li>
+                <li class="image-item hidden"><img src="../images/2.jpg" alt="displaying images"></li>
+                <li class="image-item hidden"><img src="../images/3.jpg" alt="displaying images"></li>
+                <li class="image-item hidden"><img src="../images/4.jpg" alt="displaying images"></li>
+              </ul>
+            </div>
 
+            <div class="index-back"></div>
+
+            <div class="index-list">
+              <ul>
+                <li class="index-item current-index"></li>
+                <li class="index-item"></li>
+                <li class="index-item"></li>
+                <li class="index-item"></li>
+              </ul>
+            </div>
+
+
+            <div class="direction hidden" id="direction">
+              <ul>
+                <!-- <li class="direction-item icon-left"><span class="icon-circle-left"></span></li> -->
+                <li class="direction-item icon-left" id="go-left"><</li>
+                <!-- <li class="direction-item icon-right"><span class="icon-circle-right"></span></li> -->
+                <li class="direction-item icon-right" id="go-right">></li>
+              </ul>
+            </div>
           </div>
 
 
-        </article>
       </div><!--container------------>
 
       <ul id="hint-top" class="hint fixed-hint-top hidden">
@@ -108,6 +134,7 @@
 
     <script src="../js/jquery-3.1.1.js"></script>
     <script src="../js/commen.js"></script>
+    <script src="../js/index.js"></script>
 
   </body>
 </html>
