@@ -1,4 +1,5 @@
 .image-panel {
+  display: block;
   position: relative;
   width: 742px;
   height: 312px;
