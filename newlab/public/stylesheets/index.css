@@ -37,13 +37,14 @@
 .index-list {
   position: absolute;
   bottom: 10px;
-  right: 40px;
+  right: 20px;
   z-index: 14;
 }
 .index-item {
   display: inline-block;
   width: 40px;
   height: 10px;
+  margin: 0 5px;
   background-color: #ca23d2;
 }
 

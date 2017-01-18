@@ -1,9 +1,17 @@
 $(function () {
   var currentIndex = 0;
   var images = $('.image-list .image-item');
-  var indexs = $('.index-list .index-item');
   var len = images.length;
 
+  var str = '<ul><li class="index-item current-index"></li>';
+  for (var i = 0; i < len - 1; i++) {
+    str += '<li class="index-item"></li>';
+  }
+  str += '</ul>';
+  $('#index-list').html(str);
+
+  var indexs = $('.index-list .index-item');
+  
   indexs.each(function (index) {
     $(this).hover(function () {
       //第一种方法：将changeTo直接写在程序中：
