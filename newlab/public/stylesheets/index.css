@@ -84,3 +84,11 @@
   bottom: 0;
   margin: auto 0;
 }
+/*******************************之后的内容部分**********************************/
+.index-news {
+  width: 80%;
+  margin: 0 auto;
+}
+.news-title .icon-star-full::before {
+  color: red;
+}

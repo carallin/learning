@@ -373,10 +373,11 @@ section {
   margin-left: 30px;
 }
 .aside .aside-list2 li {
-  list-style-type: circle;
+  list-style-type: none;
 }
 .aside .aside-list2 li > a{
-  padding: 10px 0 10px 5px;
+  padding: 10px 0 10px 10px;
+  background: url(../images/list.gif) no-repeat 0 20px;
 }
 .aside li:hover {
   color: #632363;
@@ -443,6 +444,17 @@ section {
   right: 10px;
   top: 15px;
   color: #888;
+}
+
+.img-center {
+  text-align: center;
+}
+.img-center img {
+  margin: 0 20px;
+}
+.img-center .img-title {
+  display: block;
+  font-size: .9em;
 }
 /*------------------------footer----------------------------*/
 footer {
@@ -578,7 +590,7 @@ table th {
   font-size: 1.1em;
   text-align: left;
   padding: 5px 20px;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #aaa;
   /*background-color: rgb(199, 116, 232);*/
 }
 table td {
@@ -588,7 +600,7 @@ table tr {
   font-size: .9em;
   text-align: left;
   line-height: 2.7;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ccc;
 }
 table tr:first-child {
   /*background-color: rgb(209, 180, 237);*/

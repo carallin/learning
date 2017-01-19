@@ -18,11 +18,15 @@ $(function () {
   });
   $('#patents-inner').html(str);
 
-  var str2 = '';
-  papers.forEach(function (item,index) {
-    str2+='<li><p>'+ item.name + '<a class="download" href="' + item.src + '"><span class="icon-file-text2"></span></a>'
-    + '<br/>author: ' + item.author + '&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp<i>"' + item.express +'"</i></p></li>';
-  });
-  $('#papers').html(str2);
-
+  var str3 = '';
+  var papersYearLen = papersYear.length;
+  for (var i = 0; i < papersYearLen; i++) {
+    str3 += '<h4>' + papersYear[i] + '</h4><ol>';
+    papers[i].forEach(function (item,index) {
+      str3 += '<li><p>'+ item.name + '<a class="download" href="' + item.src + '"><span class="icon-file-text2"></span></a>'
+      + '<br/>author: ' + item.author + '&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp<i>"' + item.express +'"</i></p></li>';
+    });
+    str3 += '</ol>';
+  }
+  $('#paper-box').html(str3);
 });
