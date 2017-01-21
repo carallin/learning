@@ -46,6 +46,7 @@
   padding-top: 5px;
   padding-left: 40px;
 }
+
 .small img {
   width: 100px;
   height: 115px;
@@ -64,6 +65,6 @@
 }
 .people {
   /*border: 1px solid red;*/
-  flex-basis: 250px;
+  flex-basis: 280px;
   flex-grow: 1;
 }
