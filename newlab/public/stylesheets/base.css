@@ -433,7 +433,7 @@ section {
 }
 .news-lists a:hover .news-title {
   color: #f90;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .news-lists > .item .news-title {
   display: block;
