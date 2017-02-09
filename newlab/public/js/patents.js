@@ -4,7 +4,7 @@ var patentsOuter = [
     "name": "Tunable semiconductor laser based on reconstruction-equivalent-chirp",
     "src": "../files/p-us-2.pdf",
     "author": "陈向飞",
-    "number": "US 7873089 B2 US20160134082"
+    "number": "US20160134082"
   },
   {
     "id":2,
