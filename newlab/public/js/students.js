@@ -362,6 +362,15 @@ var studentsFormer = [
     "other": ""
   },
   {
+    "name": "施跃春",
+    "degree": "博士",
+    "src": "../images/shiyuechun.jpg",
+    "year1": 2009,
+    "year2": 2012,
+    "company": "南京大学副教授",
+    "other": "shiyc@nju.edu.cn"
+  },
+  {
     "name": "陈莹",
     "degree": "学士",
     "src": "../images/logo.png",
