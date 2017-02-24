@@ -1,10 +1,10 @@
 var patentsOuter = [
   {
     "id":1,
-    "name": "Tunable semiconductor laser based on reconstruction-equivalent-chirp",
+    "name": "Tunable semiconductor laser based on reconstruction-equivalent-chirp and series mode or series and parallel hybrid integration and preparation thereof",
     "src": "../files/p-us-2.pdf",
     "author": "陈向飞",
-    "number": "US20160134082"
+    "number": "US20160134082A1"
   },
   {
     "id":2,
