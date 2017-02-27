@@ -132,6 +132,15 @@ var students = [
     "now": "硕士、博士",
     "study": "光子集成",
     "other": "微信号：rolray"
+  },
+  {
+    "id":14,
+    "name": "刘胜平",
+    "src": "../images/liushengping.jpg",
+    "year": 2012,
+    "now": "硕士、博士",
+    "study": "光子集成",
+    "other": "lspatnju@163.com"
   }
 ];
 
@@ -301,7 +310,7 @@ var studentsFormer = [
   {
     "name": "高亮",
     "degree": "硕士、博士",
-    "src": "../images/logo.png",
+    "src": "../images/gaoliang.jpg",
     "year1": 2009,
     "year2": 2014,
     "company": "科磊半导体设备技术（上海）有限公司",
@@ -373,7 +382,7 @@ var studentsFormer = [
   {
     "name": "陈莹",
     "degree": "学士",
-    "src": "../images/logo.png",
+    "src": "../images/chenying.jpg",
     "year1": 2010,
     "year2": 2011,
     "company": "浙商基金",
