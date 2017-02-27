@@ -39,3 +39,12 @@ gulp.task('files', function () {
     gulp.src('public/images/**')
     .pipe(gulp.dest('dist/images'));
 });
+
+gulp.task('mytask',['css','js','html']);
+
+// gulp.task('js-all', function () {
+//     gulp.src(['src/js/*.js', '!src/js/jquery*.js']) // 要压缩的js文件
+//     .pipe(concat('commen.js'))  // 合并匹配到的js文件
+//     .pipe(uglify())  //使用uglify进行压缩,更多配置请参考：
+//     .pipe(gulp.dest('dist/js/all.js')); //压缩后的路径
+// });
