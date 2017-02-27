@@ -322,6 +322,9 @@ section {
   justify-content: flex-start;
   align-items: stretch;
 }
+.container.index {
+  display: block;
+}
 .container::after {
   content: "";
   display: block;
