@@ -11,7 +11,7 @@ $(function () {
   $('#index-list').html(str);
 
   var indexs = $('.index-list .index-item');
-  
+
   indexs.each(function (index) {
     $(this).hover(function () {
       //第一种方法：将changeTo直接写在程序中：
@@ -82,8 +82,8 @@ function changeTo(index,currentIndex) {
   var indexs = $('.index-list .index-item');
   if (currentIndex != index) {
     $(indexs[currentIndex]).removeClass('current-index');
-    $(images[currentIndex]).fadeOut('fast');
-    $(images[index]).fadeIn('slow');
+    $(images[currentIndex]).hide('fast');
+    $(images[index]).show('slow');
     $(indexs[index]).addClass('current-index');
   }
 };
