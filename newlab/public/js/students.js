@@ -6,7 +6,7 @@ var students = [
     "year": 2016,
     "now": "硕士",
     "study": "光子集成、光纤传感",
-    "other": "luj@nju.edu.cn"
+    "other": "thankyouxy@163.com"
   },
   {
     "id":2,
@@ -15,7 +15,7 @@ var students = [
     "year": 2016,
     "now": "硕士",
     "study": "光子集成",
-    "other": "thankyouxy@163.com"
+    "other": ""
   },
   {
     "id":3,
@@ -40,7 +40,7 @@ var students = [
     "src": "../images/zoulinjie.jpg",
     "year": 2016,
     "now": "硕士",
-    "study": "光子集成、微博光子学",
+    "study": "光子集成、微波光子学",
     "other": "13151582188"
   },
   {

@@ -222,13 +222,71 @@ var papers = [
  }
   ],
   // 2012---------------------------------------------
-  [{
-    "id": 1,
-    "name": "Microwave Photonic Filter With Two Independently Tunable Passbands Using a Phase Modulator and an Equivalent Phase-Shifted Fiber Bragg Grating",
-    "src": "",
-    "author": "Gao, J. Zhang, X. Chen, and J. Yao",
-    "express": "IEEE Transactions on Microwave Theory"
-  }],
+  [
+    {
+   "id": 1,
+   "name": "Coupled frequency-doubling optoelectronic oscillator based on polarization modulation and polarization multiplexing",
+   "src": "../files/a-2012-1.pdf",
+   "author": "Cai S, Pan S, Zhu D, Tang Z, Zhou P, Chen X",
+   "express": "Optics Communications.2012;285(6):1140-3"
+ },
+{
+   "id": 2,
+   "name": "Multimode fiber laser for simultaneous measurement of strain and temperature based on beat frequency demodulation",
+   "src": "../files/a-2012-2.pdf",
+   "author": "Gao L, Chen L, Huang L, Chen X",
+   "express": "Optics express. 2012;20(20):22517-22"
+ },
+{
+   "id": 3,
+   "name": "Simultaneous Measurement of Strain and Load Using a Fiber Laser Sensor",
+   "src": "../files/a-2012-3.pdf",
+   "author": "GAO L, CHEN L, HUANG L, LIU S, YIN Z, CHEN X",
+   "express": "IEEE Sensors Journal. 2012;12(5):1513-7"
+ },
+{
+   "id": 4,
+   "name": "Fabricating fiber Bragg gratings with two phase masks based on reconstruction-equivalent-chirp technique",
+   "src": "../files/a-2012-4.pdf",
+   "author": "GAO L, CHEN X, XIONG J, LIU S, PU T",
+   "express": "Optics express. 2012;20(3):2240-5"
+ },
+{
+   "id": 5,
+   "name": "A Method of Adjusting Wavelengths of Distributed Feedback Laser Arrays by Injection Current Tuning",
+   "src": "../files/a-2012-5.pdf",
+   "author": "HOU J, CHEN X, WANG L, CHEN W, ZHU N",
+   "express": "IEEE Photonics Journal. 2012;4(6):2189-95"
+ },
+{
+   "id": 6,
+   "name": "Experimental demonstration of the three phase shifted DFB semiconductor laser based on Reconstruction-Equivalent-Chirp technique",
+   "src": "../files/a-2012-6.pdf",
+   "author": "SHI Y, CHEN X, ZHOU Y, LI S, LI L, FENG Y",
+   "express": "Optics express. 2012;20(16):17374-9"
+ },
+{
+   "id": 7,
+   "name": "Experimental demonstration of eight-wavelength distributed feedback semiconductor laser array using equivalent phase shift",
+   "src": "../files/a-2012-7.pdf",
+   "author": "SHI Y, CHEN X, ZHOU Y, LI S, LU L, LIU R, et al",
+   "express": "Optics letters. 2012;37(16):3315-7"
+ },
+{
+   "id": 8,
+   "name": "Improved λ/4 phase-shifted DFB semiconductor laser with spatial hole burning compensation using grating chirp",
+   "src": "../files/a-2012-8.pdf",
+   "author": "SHI Y, LI S, ZHOU Y, LU L, LI L, FENG Y, et al",
+   "express": "Optics & Laser Technology. 2012;44(8):2443-8"
+ },
+{
+   "id": 9,
+   "name": "Polarization-modulated analog photonic link with compensation of the dispersion-induced power fading",
+   "src": "../files/a-2012-9.pdf",
+   "author": "ZHANG H, PAN S, HUANG M, CHEN X",
+   "express": "Optics letters. 2012;37(5):866-8"
+ }
+  ],
   // 2011---------------------------------------------
   [
 {

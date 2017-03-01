@@ -186,6 +186,13 @@ p {
   text-indent: 1.8em;
   text-align: justify;
 }
+.p-innerlist {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.p-innerlist li {
+  padding: 5px 0;
+}
 p.small-p {
   line-height: 1;
 }
@@ -308,7 +315,7 @@ li.active:after {
 /*------------------------aside----------------------------*/
 
 .container {
-  min-height: 600px;
+  min-height: 750px;
 }
 section {
 }
