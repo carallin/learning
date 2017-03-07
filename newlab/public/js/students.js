@@ -73,7 +73,7 @@ var students = [
   {
     "id":9,
     "name": "王昊",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year": 2015,
     "now": "硕士",
     "study": "光子集成",
@@ -100,7 +100,7 @@ var students = [
   {
     "id":11,
     "name": "田响",
-    "src": "../images/logo.png",
+    "src": "../images/girl.jpg",
     "year": 2014,
     "now": "硕士",
     "study": "光子集成",
@@ -148,7 +148,7 @@ var studentsFormer = [
   {
     "name": "钱亚娟",
     "degree": "硕士",
-    "src": "../images/logo.png",
+    "src": "../images/girl.jpg",
     "year1": 2013,
     "year2": 2016,
     "company": "半导体周边行业",
@@ -166,7 +166,7 @@ var studentsFormer = [
   {
     "name": "陈婷",
     "degree": "硕士",
-    "src": "../images/logo.png",
+    "src": "../images/girl.jpg",
     "year1": 2013,
     "year2": 2016,
     "company": "南京大学商学院",
@@ -175,7 +175,7 @@ var studentsFormer = [
   {
     "name": "张婷婷",
     "degree": "硕士",
-    "src": "../images/logo.png",
+    "src": "../images/girl.jpg",
     "year1": 2013,
     "year2": 2016,
     "company": "",
@@ -193,7 +193,7 @@ var studentsFormer = [
   {
     "name": "黄龙",
     "degree": "硕士、博士",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year1": 2010,
     "year2": 2016,
     "company": "",
@@ -211,7 +211,7 @@ var studentsFormer = [
   {
     "name": "张云山",
     "degree": "博士后",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year1": 2013,
     "year2": 2015,
     "company": "南京邮电大学",
@@ -247,7 +247,7 @@ var studentsFormer = [
   {
     "name": "郑俊守",
     "degree": "博士",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year1": 2011,
     "year2": 2015,
     "company": "苏州旭创科技有限公司",
@@ -301,7 +301,7 @@ var studentsFormer = [
   {
     "name": "卢林林",
     "degree": "硕士、博士",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year1": 2009,
     "year2": 2014,
     "company": "江苏省邮电规划设计院",
@@ -364,7 +364,7 @@ var studentsFormer = [
   {
     "name": "殷作为",
     "degree": "硕士、博士",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year1": 2007,
     "year2": 2012,
     "company": "交通银行江苏省分行",
@@ -391,7 +391,7 @@ var studentsFormer = [
   {
     "name": "贾凌慧",
     "degree": "硕士",
-    "src": "../images/logo.png",
+    "src": "../images/girl.jpg",
     "year1": 2008,
     "year2": 2011,
     "company": "",
@@ -400,7 +400,7 @@ var studentsFormer = [
   {
     "name": "刘盛春",
     "degree": "博士",
-    "src": "../images/logo.png",
+    "src": "../images/boy.jpg",
     "year1": 2008,
     "year2": 2011,
     "company": "黑龙江大学",
@@ -409,7 +409,7 @@ var studentsFormer = [
   {
     "name": "程赟",
     "degree": "硕士",
-    "src": "../images/logo.png",
+    "src": "../images/girl.jpg",
     "year1": 2006,
     "year2": 2010,
     "company": "上海移动",
