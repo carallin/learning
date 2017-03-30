@@ -22,7 +22,101 @@
 }
 /*-----------animation example-----------*/
 
+/*.wrap {
+    border: 2px solid #2311ee;
+    height: 200px;
+    position: relative;
+}*/
+/*#div4 {
+    border: 2px solid #21e3f1;
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}*/
+/*#div4 {
+    border: 2px solid #21e3f1;
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30%;
+    margin-top: -3%;
+}*/
 
+.wrap {
+    border: 2px solid #2311ee;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div4 {
+    border: 2px solid #21e3f1;
+    width: 60%;
+    height: 40%;
+}
+/*圣杯布局*/
+#wrap2 {
+    margin-top: 30px;
+    border: 2px solid #2311ee;
+    height: 200px;
+    /*display: none;*/
+}
+#left {
+    border: 1px solid red;
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+#right {
+    border: 1px solid red;
+    width: 100px;
+    height: 100%;
+    float: right;
+}
+#main {
+    border: 1px solid blue;
+    height: 100%;
+    margin: 0 110px;
+    /*padding: 0 110px;*/
+}
+
+
+#wrap3 {
+    margin-top: 30px;
+    border: 2px solid #2311ee;
+    height: 200px;
+    display: none;
+}
+#left3 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+#right3 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100%;
+    float: right;
+}
+#main3 {
+    border: 1px solid blue;
+    height: 100%;
+    margin: 0 110px;
+}
+
+
+
+
+
+/*flex-box test*/
 .father {
     border: 8px solid wheat;
     height: 200px;
@@ -39,29 +133,27 @@
 }
 
 #div1 {
-    /*width: 200px;*/
     background-color: seashell;
     font-size: 22px;
-    /*flex-grow: 1;*/
-    width: 200px;
-    /*flex-basis: 240px;*/
+    flex-grow: 0;
+    flex-basis: 240px;
 
 }
 #div2 {
     background-color: silver;
     flex-basis: 240px;
     flex-grow: 1;
-    display: none;
 }
 #div3 {
     background-color: linen;
     font-size: 32px;
-    flex-grow: 1;
-    /*flex-basis: 240px;*/
-
+    flex-grow: 0;
+    flex-basis: 240px;
 }
+/*flex-box test*/
 
 
+/*sublist test*/
 #list1:hover ul{
     display: block !important;
 }
@@ -87,7 +179,7 @@ ul {
     left: 200px;
     top: 0;
 }
-
+/*sublist test*/
 
 .input input {
     display: block;
